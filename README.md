@@ -1,9 +1,12 @@
-# Sistema de login PHP + MYSQL:
-20/10/2022 - Sistema de Login em PHP + MYSQL: 
-Desenvolvedor: Emerson P. Silva
-E-mail: emerson.pereira@gmail.com
-Site: https://www.php4you.com.br
-
+```html
+|
+| - # Sistema de login PHP + MYSQL:
+| - 20/10/2022 - Sistema de Login em PHP + MYSQL: 
+| - Desenvolvedor: Emerson P. Silva
+| - E-mail: emerson.pereira@gmail.com
+| - Site: https://www.php4you.com.br
+|
+```
 
 ```html
 Raiz do Projeto:
