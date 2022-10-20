@@ -2,6 +2,8 @@
     
     if(isset($_POST['submit']))
     {
+
+        // DEBUG dos CAMPOS
         print_r($_POST['nome']);
         echo" , ";
         print_r($_POST['senha']);
@@ -39,9 +41,10 @@
         //$result = mysqli_query($conexao, $sql);
 
         $result = mysqli_query($conexao, "INSERT INTO tbl_usuarios(nome,senha,email,telefone,sexo,data_nasc,cidade,estado,endereco) 
-        VALUES ($nome,$senha,$email,$telefone,$sexo,$data_nasc,$cidade,$estado,$endereco)");
+        VALUES ('$nome','$senha','$email','$telefone','$sexo','$data_nasc','$cidade','$estado','$endereco')") or die(mysqli_error($conexao));
 
-        print_r($result);
+
+
     }
 ?>
 

@@ -16,7 +16,7 @@
         echo "Erro na conexão:";
 
     }else {
-        Echo "<center> <h4> Conexão efetuada com sucesso! </h4></center>";
+        //Echo "<center> <h4> Conexão efetuada com sucesso! </h4></center>";
     }
 
 
