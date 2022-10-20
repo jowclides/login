@@ -1,12 +1,16 @@
-# login
-Sistema de Login em PHP + MYSQL:
+# Sistema de login PHP + MYSQL:
+20/10/2022 - Sistema de Login em PHP + MYSQL: 
+Desenvolvedor: Emerson P. Silva
+E-mail: emerson.pereira@gmail.com
+Site: https://www.php4you.com.br
+
 
 ```html
 Raiz do Projeto:
 |
 ├── BD/
-|    ├── wsphp_login.sql
-|
+|    └── wsphp_login.sql
+|           └── Arquivo SQL com o esquema para criação da tabela no MYSQL/MARIADB
 |
 ├── Includes/
 |    └── config.php
@@ -34,7 +38,7 @@ Raiz do Projeto:
 |
 ```
 
-# Código SQL da Tabela Cadastro , Ultilizei o MySql:
+# Código SQL da Tabela tbl_usuarios, Ultilizei o MySql:
 ```sql
 -- --------------------------------------------------------
 
