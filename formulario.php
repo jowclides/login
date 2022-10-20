@@ -22,7 +22,7 @@
         echo" , ";
         print_r($_POST['endereco']);
         
-        include_once('config.php');
+        include_once('includes\config.php');
 
 
         $nome = $_POST['nome'];

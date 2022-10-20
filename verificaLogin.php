@@ -7,7 +7,7 @@
         //echo "Existe";
         // Passou. Pode acessar pois existe campos preenchidos de e-mail e senha
         
-        include_once('config.php');
+        include_once('includes\config.php');
             $email = $_POST['email'];
             $senha = $_POST['senha'];
 

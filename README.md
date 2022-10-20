@@ -9,7 +9,7 @@ Raiz do Projeto:
 |
 |
 ├── Includes/
-|    └── congif.php
+|    └── config.php
 |           └── Arquivo que faz conexão com o Banco de Dados
 |
 |
