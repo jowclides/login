@@ -38,7 +38,6 @@
 
 </head>
 <body>
-<a href="home.php"> Voltar</a>
 
 <h1> Se increva no canal! ;) </h1>
 <h1> Prof. Emerson Silva</h1>

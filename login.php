@@ -49,6 +49,18 @@
     <a href="home.php"> Voltar</a>
 
     <div>
+        <?php
+            //$tentativalogin = $_GET['login'];
+            
+            //if(!empty($tentativalogin))
+            //{
+                //print_r('<b>Oppsss:</b> Acesso negado. <br> Verifique Usuário e Senha por favor!');
+                //sleep(5);
+                //header('Location: login.php?login=ok');
+            //}//else{
+                //header('Location: login.php?login=ok');
+            //}
+        ?>
         <h1>Login</h1>
         <form action="verificaLogin.php" method="POST">
             <input type="text" name="email" placeholder="Email">
