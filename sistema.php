@@ -34,8 +34,6 @@
           $sql = "SELECT * FROM tbl_usuarios ORDER BY id DESC";
         }
        
-        
-
         $result = $conexao->query($sql);
 
         //print_r($result);
@@ -106,6 +104,9 @@
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="formulario.php">Form Cadastro</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#">Link 1</a>
